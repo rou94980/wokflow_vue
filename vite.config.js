@@ -22,6 +22,7 @@ export default defineConfig(({ command, mode }) => {
         resolvers: [ElementPlusResolver({ importStyle: "sass" })],
       }),
     ],
+    base: "/wokflow_vue/",
     resolve: {
       alias: {
         "@": fileURLToPath(new URL("./src", import.meta.url)),
